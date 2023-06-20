@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".fragment.DailyFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:elevation="8dp"
+        android:background="@drawable/bg_header"
+        android:clickable="true"
+        android:focusable="true"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNextDay"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/next"
+            android:textSize="14sp"
+            app:icon="@drawable/left_arrow"
+            app:iconPadding="8dp"
+            app:iconGravity="start"
+            android:backgroundTint="#666666"
+            />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPreviousDay"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/back"
+            android:textSize="14sp"
+            app:icon="@drawable/right_arrow"
+            android:backgroundTint="#666666"
+            app:iconPadding="8dp"
+            app:iconGravity="textEnd"/>
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/queueRecyclerView"
+        android:layout_width="402dp"
+        android:layout_height="659dp"
+        android:layout_above="@+id/btnAdd"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-72dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:icon="@drawable/add_icon"
+        android:backgroundTint="#c0c0c0"
+    />
+
+</RelativeLayout>

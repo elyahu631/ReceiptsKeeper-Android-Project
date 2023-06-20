@@ -1,0 +1,69 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.receiptskeeper'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.receiptskeeper"
+        minSdk 27
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2' // Unit testing framework
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5' // Additional testing support for JUnit
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1' // UI testing framework
+
+
+    implementation 'androidx.appcompat:appcompat:1.6.1' // Support for app bar and UI elements on older Android versions
+
+    implementation 'com.google.android.material:material:1.9.0' // Material Design components for a modern UI
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Powerful layout manager for flexible UI design
+
+    implementation 'com.google.firebase:firebase-auth:22.0.0' // User authentication with Firebase
+
+    implementation 'com.google.firebase:firebase-firestore:24.6.1' // Cloud storage and syncing of app data
+
+    implementation 'com.google.firebase:firebase-storage:20.2.0' // Cloud storage for files
+
+    implementation 'com.google.firebase:firebase-database:20.2.2' // Real-time syncing of data
+
+    implementation 'com.google.android.gms:play-services-auth:20.5.0' // Google Sign-In integration
+
+    implementation 'com.airbnb.android:lottie:3.7.1' // Rendering After Effects animations
+
+    implementation 'com.squareup.picasso:picasso:2.71828' // Image loading and caching library
+
+    implementation 'joda-time:joda-time:2.10.10' // Date and time manipulation library
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0' // Circular image view implementation
+
+    implementation 'com.github.razir.progressbutton:progressbutton:2.1.0' // Customizable progress button
+
+    implementation 'com.prolificinteractive:material-calendarview:1.4.3' // Custom calendar view
+
+    implementation 'com.itextpdf:itextg:5.5.10' // Library for creating PDF documents
+
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2' // Custom alert dialog library
+}

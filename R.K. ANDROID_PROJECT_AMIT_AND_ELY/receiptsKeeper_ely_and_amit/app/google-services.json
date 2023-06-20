@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1071074328962",
+    "project_id": "receiptskeeper-7716e",
+    "storage_bucket": "receiptskeeper-7716e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071074328962:android:959453c27da0cde5390f9b",
+        "android_client_info": {
+          "package_name": "com.example.receiptskeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071074328962-hnlpmn4rui0dj69fa5n0h96i4tvq3qpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK_1f0V3_Ywxr7QFxKTfdeBMFLmpmlyoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071074328962-hnlpmn4rui0dj69fa5n0h96i4tvq3qpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

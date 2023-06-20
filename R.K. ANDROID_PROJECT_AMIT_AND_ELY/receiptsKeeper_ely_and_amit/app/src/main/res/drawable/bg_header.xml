@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#eeeeee"
+        android:endColor="#cccccc"
+        android:angle="270"
+        />
+
+    <corners android:radius="8dp"/>
+</shape>
+
+
+<!--    &lt;!&ndash; res/drawable/ripple_effect.xml &ndash;&gt;-->
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<ripple xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:color="#cccccc">-->
+
+<!--<item android:id="@android:id/mask">-->
+<!--    <shape>-->
+<!--        <solid android:color="#cccccc" />-->
+<!--    </shape>-->
+<!--</item>-->
+
+<!--<item>-->
+<!--    &lt;!&ndash; This is your previous drawable shape &ndash;&gt;-->
+<!--    <shape>-->
+<!--        <solid android:color="#eeeeee"/>-->
+<!--        <corners android:radius="8dp"/>-->
+<!--    </shape>-->
+<!--</item>-->
+<!--</ripple>-->

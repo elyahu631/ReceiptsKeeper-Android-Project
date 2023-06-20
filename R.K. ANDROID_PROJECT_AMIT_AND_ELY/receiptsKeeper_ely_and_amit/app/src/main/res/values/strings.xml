@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ReceiptsKeeper</string>
+    <!-- register   -->
+    <string name="register">הרשמה</string>
+    <string name="email">דואר אלקטרוני</string>
+    <string name="password">סיסמה</string>
+    <string name="confirmPassword">אימות סיסמה</string>
+    <string name="btnRegister">הירשם</string>
+    <string name="moveToLogin">משתמש רשום? להתחברות</string>
+    <string name="googleSignUp">הרשמה מהירה גוגל</string>
+
+    <!-- login   -->
+    <string name="login">התחברות</string>
+    <string name="forgotPassword">שכחת סיסמה ?</string>
+    <string name="btnLogin">התחבר</string>
+    <string name="moveToRegister">משתמש חדש? להרשמה</string>
+
+    <!-- home  -->
+    <string name="openSentence">האפליקציה שלנו ReceiptsKeeper : תשמור לך את הקבלות לפי התורים שקבעת בצורה מסודרת ובטוחה אז יאלה תתחילו לעבוד.</string>
+    <string name="iconImage">icon</string>
+
+    <!-- profile   -->
+    <string name="profile">פרופיל עסקי</string>
+    <string name="bizOwnerName">שם בעל העסק</string>
+    <string name="bizName">שם העסק</string>
+    <string name="bizPrev">עדכן בפרופיל</string>
+    <string name="bizOwnerPrev">את הפרטים של העסק שלך</string>
+    <string name="editImage">ערוך תמונה</string>
+    <string name="update">עדכן</string>
+
+    <!-- day -->
+    <string name="next">הבא</string>
+    <string name="date">תאריך</string>
+    <string name="back">הקודם</string>
+
+    <!-- queue   -->
+    <string name="name">שם:</string>
+    <string name="add">הוסף</string>
+    <string name="delbtn">delBtn</string>
+    <string name="clientName">שם לקוח: </string>
+
+    <!-- camera/gallery   -->
+    <string name="camera">מצלמה</string>
+    <string name="gallery">גלריה</string>
+    <string name="chooseImage">בחר מקור תמונה</string>
+
+    <!-- week  -->
+    <string name="zero">0</string>
+
+    <!-- details  -->
+    <string name="hour">שעה: </string>
+    <string name="deleteReceipt">מחק קבלה</string>
+    <string name="uploadReceipt">בחר קבלה</string>
+
+    <string name="share"> שתף</string>
+    <string name="save">שמור</string>
+    <string name="receiptImage">המונה של הקבלה</string>
+    <string name="biz_image">biz image</string>
+    <string name="buttonText">לתורים של היום</string>
+    <string name="mailError">הכנס מייל תקין</string>
+    <string name="PasswordError">הכנס סיסמה מתאימה</string>
+    <string name="confirmPasswordError">סיסמה לא תואמת</string>
+    <string name="signUpNoDetails">לא הכנסת פרטים</string>
+    <string name="fullScreenImage">הגדלת תמונה</string>
+    <string name="month">חודש</string>
+    <string name="year">שנה</string>
+    <string name="monthReport">דוח חודשי</string>
+
+
+</resources>
